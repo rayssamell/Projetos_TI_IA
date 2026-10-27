@@ -1,0 +1,38 @@
+{
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "venv",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "runtime": "python311"
+    }
+  ],
+    "flutter": {
+        "platforms":{
+            "android":{
+                "default":{
+                    "projectId":"truecook-ec507",
+                    "appId":"1:792658460975:android:c41c2e16f321c49273e1da",
+                    "fileOutput":"android/app/google-services.json"}},
+                    "dart":{
+                        "lib/firebase_options.dart":{
+                            "projectId":"truecook-ec507",
+                            "configurations":{
+                                "android":"1:792658460975:android:c41c2e16f321c49273e1da",
+                                "ios":"1:792658460975:ios:1a7a0989444e91fb73e1da",
+                                "macos":"1:792658460975:ios:1a7a0989444e91fb73e1da",
+                                "web":"1:792658460975:web:db27e82e76c8ad4873e1da",
+                                "windows":"1:792658460975:web:5571b501d07ae84173e1da"
+                            }
+                        }
+                    }
+        }
+    }
+}

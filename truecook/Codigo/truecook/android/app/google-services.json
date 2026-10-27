@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "823751212022",
+    "project_id": "truecook-dev",
+    "storage_bucket": "truecook-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823751212022:android:a637b57d0ac8f5562a65d7",
+        "android_client_info": {
+          "package_name": "com.example.truecook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgxzvjGomq5BQzjv-uIjsc9xrnbNDnPWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

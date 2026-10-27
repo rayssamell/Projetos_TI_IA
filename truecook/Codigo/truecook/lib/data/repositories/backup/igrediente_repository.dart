@@ -1,0 +1,66 @@
+
+import 'package:truecook/models/ingrediente.dart';
+
+final List<Ingrediente> ingredientes = [
+    Ingrediente(id: 1, nome: "Cenoura", tipo: "Legume", unidade_medida: "unidade"),
+  Ingrediente(
+    id: 2,
+    nome: "Farinha de Arroz",
+    tipo: "Grão",
+    unidade_medida: "grama",
+  ),
+  Ingrediente(id: 3, nome: "Ovo", tipo: "Outro", unidade_medida: "unidade"),
+  Ingrediente(id: 4, nome: "Fermento", tipo: "Outro", unidade_medida: "grama"),
+  Ingrediente(id: 5, nome: "Banana", tipo: "Fruta", unidade_medida: "unidade"),
+  Ingrediente(id: 6, nome: "Aveia", tipo: "Cereal", unidade_medida: "grama"),
+  Ingrediente(
+    id: 7,
+    nome: "Leite Vegetal",
+    tipo: "Laticínio",
+    unidade_medida: "ml",
+  ),
+  Ingrediente(id: 8, nome: "Grão-de-bico", tipo: "Grão", unidade_medida: "kg"),
+  Ingrediente(id: 9, nome: "Tomate", tipo: "Legume", unidade_medida: "unidade"),
+  Ingrediente(id: 10, nome: "Pepino", tipo: "Legume", unidade_medida: "unidade"),
+  Ingrediente(id: 11, nome: "Azeite", tipo: "Tempero", unidade_medida: "ml"),
+  Ingrediente(id: 12, nome: "Limão", tipo: "Fruta", unidade_medida: "unidade"),
+  Ingrediente(id: 13, nome: "Abóbora", tipo: "Legume", unidade_medida: "kg"),
+  Ingrediente(id: 14, nome: "Cebola", tipo: "Legume", unidade_medida: "unidade"),
+  Ingrediente(id: 15, nome: "Maçã", tipo: "Fruta", unidade_medida: "unidade"),
+  Ingrediente(
+    id: 16,
+    nome: "Açúcar Mascavo",
+    tipo: "Tempero",
+    unidade_medida: "grama",
+  ),
+  Ingrediente(id: 17, nome: "Óleo de Coco", tipo: "Outro", unidade_medida: "ml"),
+  Ingrediente(id: 18, nome: "Couve", tipo: "Verdura", unidade_medida: "folha"),
+  Ingrediente(
+    id: 19,
+    nome: "Gengibre",
+    tipo: "Tempero",
+    unidade_medida: "grama",
+  ),
+  Ingrediente(id: 20, nome: "Lentilha", tipo: "Grão", unidade_medida: "kg"),
+  Ingrediente(
+    id: 21,
+    nome: "Pimentão",
+    tipo: "Legume",
+    unidade_medida: "unidade",
+  ),
+  Ingrediente(
+    id: 22,
+    nome: "Ervilha",
+    tipo: "Legume",
+    unidade_medida: "unidade",
+  ),
+  Ingrediente(
+    id: 23,
+    nome: "Chocolate Amargo",
+    tipo: "Outro",
+    unidade_medida: "grama",
+  ),
+  Ingrediente(id: 24, nome: "Quinoa", tipo: "Grão", unidade_medida: "grama"),
+  Ingrediente(id: 25, nome: "Salsinha", tipo: "Tempero", unidade_medida: "maço"),
+  Ingrediente(id: 26, nome: "Hortelã", tipo: "Tempero", unidade_medida: "maço"),
+];
